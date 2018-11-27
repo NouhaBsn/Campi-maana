@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AF8D5321AD80BD00043491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF8D5221AD80BD00043491 /* AppDelegate.swift */; };
+		04AF8D5521AD80BD00043491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF8D5421AD80BD00043491 /* ViewController.swift */; };
+		04AF8D5821AD80BD00043491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF8D5621AD80BD00043491 /* Main.storyboard */; };
+		04AF8D5B21AD80BD00043491 /* Campi_Maana.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04AF8D5921AD80BD00043491 /* Campi_Maana.xcdatamodeld */; };
+		04AF8D5D21AD80BD00043491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AF8D5C21AD80BD00043491 /* Assets.xcassets */; };
+		04AF8D6021AD80BD00043491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF8D5E21AD80BD00043491 /* LaunchScreen.storyboard */; };
+		04AF8D6B21AD80BD00043491 /* Campi_MaanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF8D6A21AD80BD00043491 /* Campi_MaanaTests.swift */; };
+		04AF8D7621AD80BE00043491 /* Campi_MaanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF8D7521AD80BE00043491 /* Campi_MaanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AF8D6721AD80BD00043491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AF8D4721AD80BC00043491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AF8D4E21AD80BD00043491;
+			remoteInfo = "Campi Maana";
+		};
+		04AF8D7221AD80BE00043491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AF8D4721AD80BC00043491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AF8D4E21AD80BD00043491;
+			remoteInfo = "Campi Maana";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AF8D4F21AD80BD00043491 /* Campi Maana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campi Maana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF8D5221AD80BD00043491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AF8D5421AD80BD00043491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04AF8D5721AD80BD00043491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AF8D5A21AD80BD00043491 /* Campi_Maana.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Campi_Maana.xcdatamodel; sourceTree = "<group>"; };
+		04AF8D5C21AD80BD00043491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AF8D5F21AD80BD00043491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AF8D6121AD80BD00043491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AF8D6621AD80BD00043491 /* Campi MaanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campi MaanaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF8D6A21AD80BD00043491 /* Campi_MaanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campi_MaanaTests.swift; sourceTree = "<group>"; };
+		04AF8D6C21AD80BD00043491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AF8D7121AD80BE00043491 /* Campi MaanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campi MaanaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF8D7521AD80BE00043491 /* Campi_MaanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campi_MaanaUITests.swift; sourceTree = "<group>"; };
+		04AF8D7721AD80BE00043491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AF8D4C21AD80BD00043491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF8D6321AD80BD00043491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF8D6E21AD80BE00043491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AF8D4621AD80BC00043491 = {
+			isa = PBXGroup;
+			children = (
+				04AF8D5121AD80BD00043491 /* Campi Maana */,
+				04AF8D6921AD80BD00043491 /* Campi MaanaTests */,
+				04AF8D7421AD80BE00043491 /* Campi MaanaUITests */,
+				04AF8D5021AD80BD00043491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AF8D5021AD80BD00043491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AF8D4F21AD80BD00043491 /* Campi Maana.app */,
+				04AF8D6621AD80BD00043491 /* Campi MaanaTests.xctest */,
+				04AF8D7121AD80BE00043491 /* Campi MaanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AF8D5121AD80BD00043491 /* Campi Maana */ = {
+			isa = PBXGroup;
+			children = (
+				04AF8D5221AD80BD00043491 /* AppDelegate.swift */,
+				04AF8D5421AD80BD00043491 /* ViewController.swift */,
+				04AF8D5621AD80BD00043491 /* Main.storyboard */,
+				04AF8D5C21AD80BD00043491 /* Assets.xcassets */,
+				04AF8D5E21AD80BD00043491 /* LaunchScreen.storyboard */,
+				04AF8D6121AD80BD00043491 /* Info.plist */,
+				04AF8D5921AD80BD00043491 /* Campi_Maana.xcdatamodeld */,
+			);
+			path = "Campi Maana";
+			sourceTree = "<group>";
+		};
+		04AF8D6921AD80BD00043491 /* Campi MaanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AF8D6A21AD80BD00043491 /* Campi_MaanaTests.swift */,
+				04AF8D6C21AD80BD00043491 /* Info.plist */,
+			);
+			path = "Campi MaanaTests";
+			sourceTree = "<group>";
+		};
+		04AF8D7421AD80BE00043491 /* Campi MaanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AF8D7521AD80BE00043491 /* Campi_MaanaUITests.swift */,
+				04AF8D7721AD80BE00043491 /* Info.plist */,
+			);
+			path = "Campi MaanaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AF8D4E21AD80BD00043491 /* Campi Maana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF8D7A21AD80BE00043491 /* Build configuration list for PBXNativeTarget "Campi Maana" */;
+			buildPhases = (
+				04AF8D4B21AD80BD00043491 /* Sources */,
+				04AF8D4C21AD80BD00043491 /* Frameworks */,
+				04AF8D4D21AD80BD00043491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Campi Maana";
+			productName = "Campi Maana";
+			productReference = 04AF8D4F21AD80BD00043491 /* Campi Maana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AF8D6521AD80BD00043491 /* Campi MaanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF8D7D21AD80BE00043491 /* Build configuration list for PBXNativeTarget "Campi MaanaTests" */;
+			buildPhases = (
+				04AF8D6221AD80BD00043491 /* Sources */,
+				04AF8D6321AD80BD00043491 /* Frameworks */,
+				04AF8D6421AD80BD00043491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AF8D6821AD80BD00043491 /* PBXTargetDependency */,
+			);
+			name = "Campi MaanaTests";
+			productName = "Campi MaanaTests";
+			productReference = 04AF8D6621AD80BD00043491 /* Campi MaanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AF8D7021AD80BE00043491 /* Campi MaanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF8D8021AD80BE00043491 /* Build configuration list for PBXNativeTarget "Campi MaanaUITests" */;
+			buildPhases = (
+				04AF8D6D21AD80BE00043491 /* Sources */,
+				04AF8D6E21AD80BE00043491 /* Frameworks */,
+				04AF8D6F21AD80BE00043491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AF8D7321AD80BE00043491 /* PBXTargetDependency */,
+			);
+			name = "Campi MaanaUITests";
+			productName = "Campi MaanaUITests";
+			productReference = 04AF8D7121AD80BE00043491 /* Campi MaanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AF8D4721AD80BC00043491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04AF8D4E21AD80BD00043491 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04AF8D6521AD80BD00043491 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04AF8D4E21AD80BD00043491;
+					};
+					04AF8D7021AD80BE00043491 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04AF8D4E21AD80BD00043491;
+					};
+				};
+			};
+			buildConfigurationList = 04AF8D4A21AD80BC00043491 /* Build configuration list for PBXProject "Campi Maana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AF8D4621AD80BC00043491;
+			productRefGroup = 04AF8D5021AD80BD00043491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AF8D4E21AD80BD00043491 /* Campi Maana */,
+				04AF8D6521AD80BD00043491 /* Campi MaanaTests */,
+				04AF8D7021AD80BE00043491 /* Campi MaanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AF8D4D21AD80BD00043491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF8D6021AD80BD00043491 /* LaunchScreen.storyboard in Resources */,
+				04AF8D5D21AD80BD00043491 /* Assets.xcassets in Resources */,
+				04AF8D5821AD80BD00043491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF8D6421AD80BD00043491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF8D6F21AD80BE00043491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AF8D4B21AD80BD00043491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF8D5521AD80BD00043491 /* ViewController.swift in Sources */,
+				04AF8D5B21AD80BD00043491 /* Campi_Maana.xcdatamodeld in Sources */,
+				04AF8D5321AD80BD00043491 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF8D6221AD80BD00043491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF8D6B21AD80BD00043491 /* Campi_MaanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF8D6D21AD80BE00043491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF8D7621AD80BE00043491 /* Campi_MaanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AF8D6821AD80BD00043491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AF8D4E21AD80BD00043491 /* Campi Maana */;
+			targetProxy = 04AF8D6721AD80BD00043491 /* PBXContainerItemProxy */;
+		};
+		04AF8D7321AD80BE00043491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AF8D4E21AD80BD00043491 /* Campi Maana */;
+			targetProxy = 04AF8D7221AD80BE00043491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AF8D5621AD80BD00043491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AF8D5721AD80BD00043491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AF8D5E21AD80BD00043491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AF8D5F21AD80BD00043491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AF8D7821AD80BE00043491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AF8D7921AD80BE00043491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AF8D7B21AD80BE00043491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Campi Maana/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Campi-Maana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AF8D7C21AD80BE00043491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Campi Maana/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Campi-Maana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AF8D7E21AD80BE00043491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Campi MaanaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Campi-MaanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campi Maana.app/Campi Maana";
+			};
+			name = Debug;
+		};
+		04AF8D7F21AD80BE00043491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Campi MaanaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Campi-MaanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campi Maana.app/Campi Maana";
+			};
+			name = Release;
+		};
+		04AF8D8121AD80BE00043491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Campi MaanaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Campi-MaanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Campi Maana";
+			};
+			name = Debug;
+		};
+		04AF8D8221AD80BE00043491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Campi MaanaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Campi-MaanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Campi Maana";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AF8D4A21AD80BC00043491 /* Build configuration list for PBXProject "Campi Maana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF8D7821AD80BE00043491 /* Debug */,
+				04AF8D7921AD80BE00043491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AF8D7A21AD80BE00043491 /* Build configuration list for PBXNativeTarget "Campi Maana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF8D7B21AD80BE00043491 /* Debug */,
+				04AF8D7C21AD80BE00043491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AF8D7D21AD80BE00043491 /* Build configuration list for PBXNativeTarget "Campi MaanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF8D7E21AD80BE00043491 /* Debug */,
+				04AF8D7F21AD80BE00043491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AF8D8021AD80BE00043491 /* Build configuration list for PBXNativeTarget "Campi MaanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF8D8121AD80BE00043491 /* Debug */,
+				04AF8D8221AD80BE00043491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04AF8D5921AD80BD00043491 /* Campi_Maana.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04AF8D5A21AD80BD00043491 /* Campi_Maana.xcdatamodel */,
+			);
+			currentVersion = 04AF8D5A21AD80BD00043491 /* Campi_Maana.xcdatamodel */;
+			path = Campi_Maana.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04AF8D4721AD80BC00043491 /* Project object */;
+}
